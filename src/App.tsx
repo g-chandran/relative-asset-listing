@@ -1,6 +1,11 @@
+import { Assets } from "./lib/components/Assets";
+
 function App() {
   return (
-    <div className="text-green-500 font-tomorrow text-5xl">Hello world</div>
+    <main className="flex flex-col justify-center items-center h-screen mx-16">
+      <p className="font-tomorrow text-slate-100 w-full">Trending assets</p>
+      <Assets />
+    </main>
   );
 }
 
