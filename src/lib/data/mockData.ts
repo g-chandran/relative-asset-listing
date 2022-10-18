@@ -55,7 +55,7 @@ export const MOCKDATA: Array<mockdata> = [
     assetTitle: "Shiba Inu",
     assetAlias: "SHIB",
     iconUrl: shibaInu,
-    worth: 0.000000001948,
+    worth: 0.01948,
     difference: -8.1,
     price: 60000,
     pairs: [1, 2, 3],
