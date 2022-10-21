@@ -1,5 +1,6 @@
 import { Container } from "./Container";
 import { MOCKDATA } from "../data/mockData";
+import { Con } from "./Con";
 
 export function Assets() {
   return (
@@ -7,6 +8,7 @@ export function Assets() {
       {MOCKDATA.map((element) => (
         <Container {...element} />
       ))}
+      <Con />
     </div>
   );
 }
