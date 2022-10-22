@@ -1,27 +1,7 @@
 .container {
-  /* border-image: linear-gradient(180deg, red, blue);
-  border-width: 8px;
-  border-style: solid;
-  border-spacing: 5px; */
-
-  background: linear-gradient(
-    180deg,
-    rgba(98, 106, 136, 0.1) 0%,
-    rgba(46, 49, 73, 0.1) 107.43%
-  );
+  background: linear-gradient(180deg, #1c1f32, #191b3298) padding-box,
+    linear-gradient(180deg, rgb(55 65 81 / 1), transparent) border-box;
   border-width: 1px;
   border-style: solid;
-  border-image: linear-gradient(180deg, rgb(55 65 81 / 1), transparent);
-  border-image-slice: 1;
-
-  /* background: linear-gradient(
-        180deg,
-        rgba(98, 106, 136, 0.1) 0%,
-        rgba(46, 49, 73, 0.1) 107.43%
-      )
-      padding-box,
-    linear-gradient(180deg, transparent, transparent) border-box;
-  border-width: 1px;
-  border-style: solid;
-  border-color: transparent; */
+  border-color: transparent;
 }
