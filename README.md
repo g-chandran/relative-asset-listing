@@ -4,7 +4,7 @@ This project is a part of assigment by Relative.
 Design to code interpretation of a Figma mockup.
 
 ## Result Screenshot
-![Result Screenshot](screenshots/Screenshot%202022-10-19%20at%2012.11.33%20AM.png?raw=true)
+![Result Screenshot](screenshots/Screenshot%202022-10-22%20at%202.53.27%20PM.png?raw=true)
 
 ## Tech Stack
 Note: This project uses `vite` against popular `create-react-app` & `webpack` in favour of better performance, advanced code splitting and awesome DX.
