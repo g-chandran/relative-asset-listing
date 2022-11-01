@@ -1,4 +1,4 @@
-import { mockdata, MOCKDATA } from "../data/mockData";
+import { sourceData, SOURCE_DATA } from "../data/mockData";
 import { PopularPairContainer } from "./PopularPairContainer";
 
 export function Container({
@@ -9,7 +9,7 @@ export function Container({
   difference,
   price,
   pairs,
-}: mockdata) {
+}: sourceData) {
   const currencyFormatter = (
     currency: number,
     allowDecimal: boolean = true
@@ -47,7 +47,7 @@ export function Container({
           </div>
           <p className="text-[12px]">TVL</p>
           <PopularPairContainer
-            pairs={pairs.map((element) => MOCKDATA[element].iconUrl)}
+            pairs={pairs.map((element) => SOURCE_DATA[element].iconUrl)}
           />
           <p className="-mt-2 text-[12px]">Popular pairs</p>
         </div>
