@@ -4,6 +4,9 @@ import ethereum from "./icons/ethereum.png";
 import binance from "./icons/binance.png";
 import shibaInu from "./icons/shibaInu.png";
 
+/**
+ * Complete props a Asset Container would expect
+ */
 export interface AssetCompleteInfo {
   assetTitle: string;
   assetAlias: string;
@@ -15,14 +18,20 @@ export interface AssetCompleteInfo {
   slug?: string;
 }
 
-export interface sourceData {
-  [slug: string]: AssetCompleteInfo;
-}
-
+/**
+ * Unit Schema that API Endpoint returns
+ */
 export interface AssetPrimaryInfo {
   slug: string;
   tvl: string;
   pairedAssetSlugs: string[];
+}
+
+/**
+ * Map to lookup and transform the endpoint response
+ */
+export interface sourceData {
+  [slug: string]: AssetCompleteInfo;
 }
 
 export const SOURCE_DATA: sourceData = {
